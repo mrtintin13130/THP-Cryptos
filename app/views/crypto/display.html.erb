@@ -1,0 +1,14 @@
+<h1><center>Value</center></h1>
+<% crypto = Crypto.find(@cryp) %>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Value</th>
+    <th>Update at</th>
+  </tr>
+  <tr>
+    <td><%= crypto.name %></td>
+    <td><%= crypto.value %></td>
+    <td><%= crypto.updated_at %></td>
+  </tr>
+</table>

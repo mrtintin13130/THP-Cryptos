@@ -1,0 +1,27 @@
+<h1><center>All Cryptocurrencies</center></h1>
+<center>
+<form action="/" method="post">
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token -%>
+  <select name="crypto_id">
+    <%= @crypto.each do |crypto| %>
+      <option value="<%= crypto.id %>"><%= crypto.name %></option>
+    <% end %>
+  </select>
+  <input type="submit" name="" value="Submit">
+</form>
+</center>
+<br />
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Value</th>
+    <th>Update at</th>
+  </tr>
+  <% @crypto.each do |crypto| %>
+  <tr>
+    <td><%= crypto.name %></td>
+    <td><%= crypto.value %></td>
+    <td><%= crypto.updated_at %></td>
+  <tr>
+  <% end %>
+<table>
