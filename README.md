@@ -1,24 +1,20 @@
-# README
+# Scrap de Cryptos
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Production
 
-Things you may want to cover:
+Lien du site en production: [Cliquez ici](https://thp-crypto-seille.herokuapp.com/)
 
-* Ruby version
+## Installation
 
-* System dependencies
+Si vous clonez ce repo, n'oubliez-pas de :
 
-* Configuration
+```
+$ bundle install
+```
 
-* Database creation
+## Groupe
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Stéphane (Github user: Timmo404)
+Elliot (Github user: nomoon456)
+Mickael (Github user: jango974)
+Martin (Github user: mrtintin13130)
